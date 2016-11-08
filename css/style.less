@@ -1,0 +1,59 @@
+//common.css
+body{
+  margin:0;
+  padding: 0;
+  //overflow: hidden;
+  //overflow-y :visible
+}
+#webView{
+  position:relative;
+  transition: top 0.8s;
+  top:0;
+}
+.page{
+  width:100%;
+  //transition: top 0.8s;
+}
+.page1{
+  background-color: chocolate;
+}
+.page2{
+  background-color:firebrick;
+}
+.page3{
+  background-color: darkolivegreen;
+}
+.page4{
+  background-color: darksalmon;
+}
+.page5{
+  background-color: darkseagreen;
+}
+.page{
+  position: relative;
+}
+.btn{
+  position: fixed;
+  right:20px;
+  top:200px;
+  padding: 0;
+  z-index: 10;
+}
+.btn li{
+  background-color: #ffffff;
+  opacity: 0.8;
+  border-radius: 50%;
+  width:16px;
+  height:16px;
+  list-style: none;
+  margin-top: 10px;
+  transition: opacity 0.5s;
+  -webkit-transition: opacity 0.5s;
+  box-shadow: 3px 3px 5px 1px #000;
+}
+.btn li.hover{
+  opacity: 0.4;
+}
+::-webkit-scrollbar{
+  display:none;
+}
